@@ -13,3 +13,5 @@ class ExampleComponent extends Component {
 }
 
 export default ExampleComponent;
+// eslint-disable-next-line
+// export is here!!
