@@ -94,11 +94,11 @@ exact time the app was loaded. The `<p>` section includes the brief text on JSX.
 
 The `ExampleComponent` contains the sunglasses GIF. In the `src` folder, take a
 look at `ExampleComponent.js`. You'll see a file very similar to `App.js`,
-containing `<img>` and `<p>` elements. 
+containing `<img>` and `<p>` elements.
 
 By including `<ExampleComponent />` in `App.js`'s JSX, we are able to use the
 contents of the components. If you copy and paste `<ExampleComponent />` so it
-is listed two times in a row, _two_ GIFs will appear on the page. Try this now. 
+is listed two times in a row, _two_ GIFs will appear on the page. Try this now.
 
 What about the rest of `App.js`, though? Moving out from the middle, we see this
 JSX code is the _return_ value of a function, `render()`. This function is
@@ -199,6 +199,7 @@ set-up is abstracted away. We do not need to deal with writing the HTML document
 or connecting it with JavaScript, as it is always the boiler plate code with
 `index.html`, `index.js`, and `App.js`.
 
+//{moment().format('MMMM Do YYYY, hh:mm:ss a')}
 
 ## Resources
 
