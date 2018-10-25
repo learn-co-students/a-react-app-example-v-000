@@ -18,21 +18,13 @@ class App extends Component {
           JSX lets us include JavaScript functions right along with the HTML, and also
           allows us to add in components, which are separate, self-contained chunks of of JSX.
           Or something like that.
-          <Component />
         </p>
         <ExampleComponent />
-
+        <ExampleComponent />
       </div>
     );
   }
 }
 
-const Component = () => {
-  render(
-    <div>
-      <p>You think this is gonna work</p>
-    </div>
-  )
-}
 
 export default App;
