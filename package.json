@@ -19,7 +19,7 @@
     "webpack": "^3.11.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node your-script.js",
     "build": "react-scripts build",
     "test": "mocha -w ./test/*.js",
     "eject": "react-scripts eject"
