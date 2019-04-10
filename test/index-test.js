@@ -6,6 +6,8 @@ import App from '../src/App'
 
 import Enzyme, { shallow } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
+import { Server } from 'https';
+import { Module } from 'module';
 
 Enzyme.configure({ adapter: new Adapter() })
 
@@ -28,6 +30,7 @@ describe('App', () => {
   it('should include the TestComponent', () => {
     expect(wrapper.text()).to.include('<TestComponent />')
   });
+  
 });
 
 // describe('InFrontOfYou', () => {
