@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "mocha-multi": "^1.0.1",
+    "mocha-tags": "^1.0.1",
     "moment": "^2.22.2",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
@@ -21,7 +22,7 @@
   "scripts": {
     "start": "HOST=localhost react-scripts start",
     "build": "react-scripts build",
-    "test": "mocha -w ./test/*.js",
+    "test": "mocha -w ./test/*.js --exit",
     "eject": "react-scripts eject"
   },
   "devDependencies": {
