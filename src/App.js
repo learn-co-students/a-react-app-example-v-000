@@ -6,6 +6,7 @@ import TestComponent from './TestComponent'
 // Add your code own within the return statement
 
 class App extends Component {
+  // app is a parent compent here.
   render() {
 
     return (
