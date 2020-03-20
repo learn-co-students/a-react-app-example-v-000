@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import App from './App';
+
 
 // no need to modify anything in here. The final test is looking for the returned JSX from this component
 class TestComponent extends Component {
