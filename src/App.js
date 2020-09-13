@@ -11,7 +11,6 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          {/* {moment().format('MMMM Do YYYY, hh:mm:ss a')} */}
           Now
         </header>
         <p className="App-intro">
