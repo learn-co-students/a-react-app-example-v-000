@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import moment from 'moment';
-import ExampleComponent from './ExampleComponent'
-import TestComponent from './TestComponent'
-
-// Add your code own within the return statement
+import ExampleComponent from './ExampleComponent';
+import TestComponent from './TestComponent';
 
 class App extends Component {
   render() {
@@ -11,7 +9,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          {moment().format('MMMM Do YYYY, hh:mm:ss a')}
+          Now: {moment().format('hh:mm:ss a')}
         </header>
         <p className="App-intro">
           In React apps, we write JSX - it looks like HTML, and uses a lot HTML syntax.
@@ -19,6 +17,10 @@ class App extends Component {
           allows us to add in components, which are separate, self-contained chunks of of JSX.
         </p>
         <ExampleComponent />
+        <ExampleComponent />
+        <ExampleComponent />
+        <TestComponent />
+
 
       </div>
     );
