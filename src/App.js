@@ -4,6 +4,7 @@ import ExampleComponent from './ExampleComponent'
 import TestComponent from './TestComponent'
 
 // Add your code own within the return statement
+export default App
 
 class App extends Component {
   render() {
